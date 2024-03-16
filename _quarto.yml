@@ -10,8 +10,10 @@ book:
   cover-image: cover.png
   favicon: cover.png
   twitter-card:
+    creator: "@tonyituite"
     site: "@tonyituite"
   page-navigation: true
+  reader-mode: true
 
   #site-url: https://r4ds.hadley.nz/
   #repo-url: https://github.com/tony2015116
@@ -70,7 +72,7 @@ book:
 
 bibliography: references.bib
 
-highlight-style: arrow #arrow, pygments, tango, espresso, zenburn, kate, monochrome, breezedark, haddock, atom-one, ayu, breeze, dracula, github, gruvbox, monokai, nord, oblivion, printing, radical, solarized, and vim
+#highlight-style: arrow #arrow, pygments, tango, espresso, zenburn, kate, monochrome, breezedark, haddock, atom-one, ayu, breeze, dracula, github, gruvbox, monokai, nord, oblivion, printing, radical, solarized, and vim
 format:
   html:
     code-overflow: wrap
@@ -81,12 +83,14 @@ format:
     theme:
       light: [cosmo, theme.scss] #cosmo
       dark: [cosmo, theme-dark.scss] #darkly
+
     fontsize: 1.2em
     linestretch: 1.5
     mainfont: "LXGW WenKai Screen"
     #monofont: lxgwwenkai
     language: custom_language-zh.yml
     lang: zh
+    html-math-method: katex
   pdf:
     #pdf-engine: lualatex #wkhtmltopdf #
     fontsize: 1.2em

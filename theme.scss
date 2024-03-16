@@ -1,6 +1,9 @@
 /*-- scss:defaults --*/
-// 导入字体CSS文件
 @import url("https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css");
+// The Cosmo theme sets defaults for hover. Clear the defaults to allow
+// our coloring system to handle this
+$navbar-dark-hover-color:       null;
+$navbar-light-hover-color:      null;
 
 $h1-font-size:          1.35rem !default;
 $h2-font-size:          1.30rem !default;
@@ -10,16 +13,7 @@ $h5-font-size:          1.19rem !default;
 $h6-font-size:          1.18rem !default;
 $headings-font-weight:  500;
 
-// The Cosmo theme sets defaults for hover. Clear the defaults to allow
-// our coloring system to handle this
-$navbar-dark-hover-color:       null;
-$navbar-light-hover-color:      null;
-
-
 /*-- scss:rules --*/
-$font-family-sans-serif:      "LXGW WenKai Screen", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-
 
 .layout-example {
   background: $gray-500;
@@ -87,3 +81,7 @@ $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberati
   font-size: .830em;
   font-weight: 100;
 }
+
+
+$font-family-sans-serif:      "LXGW WenKai Screen", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
