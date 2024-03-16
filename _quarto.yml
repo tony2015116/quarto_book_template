@@ -77,10 +77,12 @@ format:
       light: cosmo
       dark: darkly
     fontsize: 1.2em
-    linestretch: 1.7
+    linestretch: 1.5
     mainfont: "LXGW WenKai Screen"
     #monofont: lxgwwenkai
     code-copy: true
+    language: custom_language-zh.yml
+    lang: zh
   pdf:
     #pdf-engine: lualatex #wkhtmltopdf #
     fontsize: 1.2em

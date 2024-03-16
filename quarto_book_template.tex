@@ -239,10 +239,20 @@
 
 \markboth{Preface}{Preface}
 
-This is a Quarto book.
+\bookmarksetup{startatroot}
+
+\chapter*{前言}\label{ux524dux8a00}
+\addcontentsline{toc}{chapter}{前言}
+
+\markboth{前言}{前言}
+
+This is a Quarto book.\\
+这是一本Quarto书。
 
 To learn more about Quarto books visit
-\url{https://quarto.org/docs/books}.
+\url{https://quarto.org/docs/books}.\\
+要了解更多关于Quarto书籍的信息，请访问
+\url{https://quarto.org/docs/books}。
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -258,9 +268,15 @@ To learn more about Quarto books visit
 
 \chapter{Introduction}\label{introduction}
 
-This is a book created from markdown and executable code.
+\bookmarksetup{startatroot}
 
-See Knuth (1984) for additional discussion of literate programming.
+\chapter{引言}\label{ux5f15ux8a00}
+
+This is a book created from markdown and executable code.\\
+这是一本由 Markdown 和可执行代码创建的书籍。
+
+See Knuth (1984) for additional discussion of literate programming.\\
+关于文学编程的更多讨论，请参见 Knuth (1984)。
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -272,11 +288,38 @@ See Knuth (1984) for additional discussion of literate programming.
 [1] 2
 \end{verbatim}
 
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(ggplot2)}
+
+\FunctionTok{ggplot}\NormalTok{(airquality, }\FunctionTok{aes}\NormalTok{(Temp, Ozone)) }\SpecialCharTok{+} 
+  \FunctionTok{geom\_point}\NormalTok{() }\SpecialCharTok{+} 
+  \FunctionTok{geom\_smooth}\NormalTok{(}\AttributeTok{method =} \StringTok{"loess"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}[H]
+
+\centering{
+
+\includegraphics{intro_files/figure-pdf/fig-airquality-1.pdf}
+
+}
+
+\caption{\label{fig-airquality}Temperature and ozone level.}
+
+\end{figure}%
+
 \bookmarksetup{startatroot}
 
 \chapter{Summary}\label{summary}
 
-In summary, this book has no content whatsoever.
+\bookmarksetup{startatroot}
+
+\chapter{总结}\label{ux603bux7ed3}
+
+In summary, this book has no content whatsoever.\\
+总的来说，这本书完全没有内容。
 
 \begin{Shaded}
 \begin{Highlighting}[]

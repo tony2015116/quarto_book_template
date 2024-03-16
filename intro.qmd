@@ -1,12 +1,11 @@
-# Introduction
+# Introduction  
 # 引言
 
-This is a book created from markdown and executable code.
+This is a book created from markdown and executable code.  
 这是一本由 Markdown 和可执行代码创建的书籍。
 
-See @knuth84 for additional discussion of literate programming.
+See @knuth84 for additional discussion of literate programming.  
 关于文学编程的更多讨论，请参见 @knuth84。
-
 
 ```{r}
 1 + 1
