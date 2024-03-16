@@ -35,8 +35,12 @@ $h3-font-size:          1.25em !default;
 $h4-font-size:          1.20rem !default;
 $h5-font-size:          1.19rem !default;
 $h6-font-size:          1.18rem !default;
-$headings-font-weight:  500 !default;
-$body-color:            $gray-700 !default;
+$headings-font-weight:  500;
+$body-bg: #181818;
+$body-color: white;
+$link-color: #75AADB;
+$code-block-bg-alpha: -.8;
+
 
 /*-- scss:rules --*/
 $font-family-sans-serif:      "LXGW WenKai Screen", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;

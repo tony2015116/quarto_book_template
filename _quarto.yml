@@ -74,8 +74,8 @@ highlight-style: arrow #arrow, pygments, tango, espresso, zenburn, kate, monochr
 format:
   html:
     theme:
-      light: [cosmo, custom.scss] #cosmo
-      dark: [darkly, custom.scss] #darkly
+      light: [cosmo, custom_light.scss] #cosmo
+      dark: [darkly, custom_dark.scss] #darkly
     fontsize: 1.2em
     linestretch: 1.5
     mainfont: "LXGW WenKai Screen"
