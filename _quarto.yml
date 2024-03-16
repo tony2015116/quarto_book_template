@@ -34,7 +34,7 @@ book:
   navbar:
     right:
       - icon: github
-        href: https://github.com/
+        href: https://tony2015116.github.io/quarto_book_template/
         aria-label: GitHub
 
   page-footer:
@@ -74,8 +74,8 @@ highlight-style: arrow #arrow, pygments, tango, espresso, zenburn, kate, monochr
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, custom.scss] #cosmo
+      dark: [darkly, custom.scss] #darkly
     fontsize: 1.2em
     linestretch: 1.5
     mainfont: "LXGW WenKai Screen"
