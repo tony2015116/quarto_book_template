@@ -79,7 +79,10 @@ format:
     code-tools: true
     css: styles.css
     code-copy: true
-    minimal: true
+    #minimal: true #代码无高亮
+    highlight-style:
+      light: arrow-light.theme
+      dark: arrow-dark.theme
     theme:
       light: [cosmo, theme.scss] #cosmo
       dark: [cosmo, theme-dark.scss] #darkly
