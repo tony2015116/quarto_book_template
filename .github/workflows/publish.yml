@@ -29,11 +29,6 @@ jobs:
             any::knitr
             any::rmarkdown
             any::tidyverse
-            any::rio
-            any::data.table
-            any::rstatix
-            any::rvest
-            any::httr2
             any::reticulate
 
       - name: Install Python and Dependencies
