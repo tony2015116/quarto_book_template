@@ -5,6 +5,7 @@
 $navbar-dark-hover-color:       null;
 $navbar-light-hover-color:      null;
 
+$gray-900: #212529 !default;
 $h1-font-size:          1.35rem !default;
 $h2-font-size:          1.30rem !default;
 $h3-font-size:          1.25em !default;
@@ -12,7 +13,7 @@ $h4-font-size:          1.20rem !default;
 $h5-font-size:          1.19rem !default;
 $h6-font-size:          1.18rem !default;
 $headings-font-weight:  500;
-
+$body-color:  $gray-900;
 /*-- scss:rules --*/
 
 .layout-example {

@@ -9,19 +9,18 @@ book:
   language: custom_language-zh.yml
   cover-image: cover.png
   favicon: cover.png
-  twitter-card:
-    creator: "@tonyituite"
-    site: "@tonyituite"
+  # twitter-card:
+  #   creator: "@tonyituite"
+  #   site: "@tonyituite"
   page-navigation: true
   reader-mode: true
 
-  #site-url: https://r4ds.hadley.nz/
-  #repo-url: https://github.com/tony2015116
+  site-url: https://tony2015116.github.io/quarto_book_template/
+  repo-url: https://github.com/tony2015116/quarto_book_template
   #repo-branch: main
-  #repo-actions: [edit, issue]
+  repo-actions: [issue] #edit,
   #downloads: [pdf] #epub
   #sharing: [twitter]
-  #reader-mode: true
 
   search:
     location: sidebar #navbar
@@ -35,18 +34,21 @@ book:
 
   navbar:
     right:
-      - icon: github
-        href: https://tony2015116.github.io/quarto_book_template/
-        aria-label: GitHub
+      - icon: person-circle #https://icons.getbootstrap.com/
+        href: https://tony2015116.github.io/
+        aria-label: personal page
+      - icon: twitter
+        href: https://twitter.com/tonyituite
+        #text:
 
-  page-footer:
-    center:
-      - text: "About"
-        href: about.qmd
-      # - text: "License"
-      #   href: license.qmd
-      # - text: "Trademark"
-      #   href: trademark.qmd
+  # page-footer:
+  #   center:
+  #     - text: "About"
+  #       href: about.qmd
+  #     - text: "License"
+  #       href: license.qmd
+  #     - text: "Trademark"
+  #       href: trademark.qmd
 
   chapters:
     - index.qmd
@@ -72,7 +74,9 @@ book:
 
 bibliography: references.bib
 
-#highlight-style: arrow #arrow, pygments, tango, espresso, zenburn, kate, monochrome, breezedark, haddock, atom-one, ayu, breeze, dracula, github, gruvbox, monokai, nord, oblivion, printing, radical, solarized, and vim
+#highlight-style:
+
+#arrow, pygments, tango, espresso, zenburn, kate, monochrome, breezedark, haddock, atom-one, ayu, breeze, dracula, github, gruvbox, monokai, nord, oblivion, printing, radical, solarized, and vim
 format:
   html:
     code-overflow: wrap
@@ -90,7 +94,7 @@ format:
     fontsize: 1.2em
     linestretch: 1.5
     mainfont: "LXGW WenKai Screen"
-    #monofont: lxgwwenkai
+    #monofont:
     language: custom_language-zh.yml
     lang: zh
     html-math-method: katex
@@ -105,7 +109,7 @@ format:
     margin-right: 30mm
     toc: true
     #mainfont: font-family-sans-serif
-    #lang: zh
+    lang: zh
     language: custom_language-zh.yml
     mainfont: "LXGWWenKai"
     monofont: "NotoSansSC"
@@ -119,8 +123,6 @@ format:
       - Extension=.ttf,
       - UprightFont=*-Regular,
       - BoldFont=*-Bold
-    #mainfont:
-    #monofont:
     #fontfamily:
     #sansfant: fontspec
     #mathfont: fontspec
