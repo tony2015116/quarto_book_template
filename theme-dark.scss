@@ -35,10 +35,11 @@ $input-bg: #242424;
   font-weight: lighter;
 }
 
-.styled-output .cell-output {
-  background-color: #e9ecef;
-  border-radius: 4px;
+.cell-output {
+  background-color: #f8f9fa;
+  border-radius: 3px;
 }
+
 
 $h1-font-size:          1.35rem !default;
 $h2-font-size:          1.30rem !default;
