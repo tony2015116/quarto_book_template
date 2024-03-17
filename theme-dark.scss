@@ -35,9 +35,9 @@ $input-bg: #242424;
   font-weight: lighter;
 }
 
-/* 设置深色主题下的代码输出颜色 */
-.output {
-    color: #f8f8f8; // 选择一种在深色背景下清晰可见的颜色
+.styled-output .cell-output {
+  background-color: #e9ecef;
+  border-radius: 4px;
 }
 
 $h1-font-size:          1.35rem !default;
