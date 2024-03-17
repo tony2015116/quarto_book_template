@@ -1,9 +1,7 @@
 ## Usage Instructions
 
 <p align="center">
-
-<a href="./README.md">English</a> • <a href="./README_zh.md">中文</a>
-
+<a href="./README.md">English</a> • <a href="./README_ZH.md">中文</a>
 </p>
 
 If you're planning to create a book using R and Quarto, this template would be an excellent choice. It's fully featured and easily customizable, meeting a wide range of formatting needs from text editing to chart insertion. Whether you're an author in data science, academic research, or any other field, this template can make the process of producing your book smoother and more efficient.

@@ -1,9 +1,7 @@
 ## 使用说明
 
 <p align="center">
-
-<a href="./README_zh.md">中文</a> • <a href="./README.md">English</a>
-
+<a href="./README_ZH.md">中文</a> • <a href="./README.md">English</a>
 </p>
 
 如果您打算运用R语言以及Quarto来创作一本书籍，这个模板将会是您的得力助手。它不仅配置齐全，而且易于定制，能够满足您从文字编辑到图表插入等各种排版需求。无论您是数据科学、学术研究还是任何其他领域的作者，这个模板都能让您的书籍制作过程更加顺畅和高效。
