@@ -101,37 +101,37 @@ format:
     language: custom_language-zh.yml
     lang: zh
     html-math-method: katex
-  pdf:
-    #pdf-engine: lualatex #wkhtmltopdf #
-    fontsize: 1.2em
-    latex-clean: false
-    from: markdown+emoji
-    keep-tex: true
-    documentclass: scrbook #book
-    margin-left: 30mm
-    margin-right: 30mm
-    toc: true
-    #mainfont: font-family-sans-serif
-    lang: zh
-    language: custom_language-zh.yml
-    mainfont: "LXGWWenKai"
-    monofont: "NotoSansSC"
-    mainfontoptions:
-      - Path=./fonts/lxgw/,
-      - Extension=.ttf,
-      - UprightFont=*-Regular,
-      - BoldFont=*-Bold
-    monofontoptions:
-      - Path=./fonts/notosans/,
-      - Extension=.ttf,
-      - UprightFont=*-Regular,
-      - BoldFont=*-Bold
-    #fontfamily:
-    #sansfant: fontspec
-    #mathfont: fontspec
-    #CJKmainfont: xecjk
-    colorlinks: true
-    linestretch: 1.2
+  # pdf:
+  #   #pdf-engine: lualatex #wkhtmltopdf #
+  #   fontsize: 1.2em
+  #   latex-clean: false
+  #   from: markdown+emoji
+  #   keep-tex: true
+  #   documentclass: scrbook #book
+  #   margin-left: 30mm
+  #   margin-right: 30mm
+  #   toc: true
+  #   #mainfont: font-family-sans-serif
+  #   lang: zh
+  #   language: custom_language-zh.yml
+  #   mainfont: "LXGWWenKai"
+  #   monofont: "NotoSansSC"
+  #   mainfontoptions:
+  #     - Path=./fonts/lxgw/,
+  #     - Extension=.ttf,
+  #     - UprightFont=*-Regular,
+  #     - BoldFont=*-Bold
+  #   monofontoptions:
+  #     - Path=./fonts/notosans/,
+  #     - Extension=.ttf,
+  #     - UprightFont=*-Regular,
+  #     - BoldFont=*-Bold
+  #   #fontfamily:
+  #   #sansfant: fontspec
+  #   #mathfont: fontspec
+  #   #CJKmainfont: xecjk
+  #   colorlinks: true
+  #   linestretch: 1.2
 
 editor: visual
 
