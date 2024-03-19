@@ -11,18 +11,6 @@ You can see in @tbl-LABEL1, that this table is from R code...
 knitr::kable(head(cars), align = "c")
 ```
 
-You can see in @tbl-LABEL2, that this table is from Python code...
-
-```{python}
-#| label: tbl-LABEL2
-#| tbl-cap: CAPTION2
-import pandas as pd, tabulate
-from IPython.display import Markdown
-df = pd.DataFrame({"A": [1, 2], 
-                   "B": [1, 2]})
-Markdown(df.to_markdown(index=False))
-```
-
 ```{r}
 #| column: page
 
