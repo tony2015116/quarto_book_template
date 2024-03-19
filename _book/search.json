@@ -1,32 +1,12 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quarto_book_template",
-    "section": "",
-    "text": "前言\nThis is a Quarto book.\n这是一本Quarto书。\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n要了解更多关于Quarto书籍的信息，请访问 https://quarto.org/docs/books。\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "前言"
-    ]
-  },
-  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  引言",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\n这是一本由 Markdown 和可执行代码创建的书籍。\nSee Knuth (1984) for additional discussion of literate programming.\n关于文学编程的更多讨论，请参见 Knuth (1984)。\n\n1 + 1\n\n[1] 2\n\n\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\n\n\n\n图 1.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. 《Literate Programming》. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "This is a book created from markdown and executable code.\n这是一本由 Markdown 和可执行代码创建的书籍。\nSee Knuth (1984) for additional discussion of literate programming.\n关于文学编程的更多讨论，请参见 Knuth (1984)。\n\n\n\n\n\n\nKnuth, Donald E. 1984. 《Literate Programming》. Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>引言</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  总结",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n总的来说，这本书完全没有内容。\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>总结</span>"
     ]
   },
   {
