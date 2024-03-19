@@ -6,18 +6,12 @@ This is a book created from markdown and executable code.\
 See @knuth84 for additional discussion of literate programming.\
 关于文学编程的更多讨论，请参见 @knuth84。
 
-```{r}
-1 + 1
-```
 
-```{r}
-#| label: fig-airquality
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
 
-library(ggplot2)
 
-ggplot(airquality, aes(Temp, Ozone)) + 
-  geom_point() + 
-  geom_smooth(method = "loess")
-```
+
+
+
+
+
+

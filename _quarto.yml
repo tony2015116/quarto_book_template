@@ -53,6 +53,9 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - table.qmd
+    - plot.qmd
+    - callouts.qmd
     - summary.qmd
     - references.qmd
 
