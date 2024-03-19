@@ -31,7 +31,6 @@ jobs:
             any::tidyverse
             any::reticulate
             any::palmerpenguins
-            any::kable
 
       - name: Install Python and Dependencies
         uses: actions/setup-python@v4
